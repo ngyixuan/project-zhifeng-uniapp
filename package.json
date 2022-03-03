@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "echarts": "^5.3.0",
+    "vant": "^2.12.39"
+  }
+}

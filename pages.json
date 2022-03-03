@@ -1,0 +1,89 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path": "pages/welcome/welcomePage",
+		
+		"style": {
+			"backgroundColor":"#FFFFFF"
+			// "navigationBarTitleText": "空气检测",
+			// "navigationBarBackgroundColor":"#FFFFFF"
+		}
+	},
+		{
+			"path": "pages/pages1/index",
+			"style": {
+				// "navigationBarTitleText": "空气检测",
+				// "navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/pages2/index",
+			"style": {
+				"navigationBarTitleText": "管理调控"
+			}
+		},
+		{
+			"path": "pages/pages3/index",
+			"style": {
+				"navigationBarTitleText": "服务反馈"
+			}
+		},
+		{
+			"path": "pages/pages4/index",
+			"style": {
+				"navigationBarTitleText": "个人主页"
+			}
+		},
+		{
+			"path": "pages/pages5/index",
+			"style": {
+				"navigationBarTitleText": "历史数据"
+			}
+		},
+		{
+			"path": "pages/pages6/index",
+			"style": {
+				"navigationBarTitleText": " 2022年 1月 18日"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationStyle":"custom",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#d01111"
+	},
+
+	"tabBar": {
+		"color": "#d0d3e5",
+		"selectedColor": "#37ddc9",
+		"height":"90px",
+		"backgroundColor": "#FFFFFF",
+		"backgroundImage":"static/img/tabBar-bg.png",
+		"list": [{
+			"pagePath": "pages/pages1/index",
+			"iconPath": "static/img/tabBar_icon/bxs-unclicked-home.svg",
+			"selectedIconPath": "static/img/tabBar_icon/bxs-clicked-home.svg",
+			"text": "空气检测"
+		}, {
+			"pagePath": "pages/pages2/index",
+			"iconPath": "static/img/tabBar_icon/bxs-unclicked-manage.svg",
+			"selectedIconPath": "static/img/tabBar_icon/bxs-clicked-manage.svg",
+			"text": "管理调控"
+		},{
+			"pagePath": "pages/pages3/index",
+			"iconPath": "static/img/tabBar_icon/bxs-unclicked-chat.svg",
+			"selectedIconPath": "static/img/tabBar_icon/bxs-clicked-chat.svg",
+			"text": "帮助反馈"
+		}, {
+			"pagePath": "pages/pages4/index",
+			"iconPath": "static/img/tabBar_icon/bxs-unclicked-profile.svg",
+			"selectedIconPath": "static/img/tabBar_icon/bxs-clicked-profile.svg",
+			"text": "个人主页"
+		}
+		]
+	}
+
+
+}

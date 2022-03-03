@@ -1,0 +1,81 @@
+::v-deep .van-cell {
+	width: 628rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	padding: 0rpx 25rpx;
+	border: 1px solid #D0DAE5;
+	border-radius: 25rpx;
+
+}
+
+.input-title {
+	padding: 10rpx 0rpx;
+	color: #828282;
+	font-family: "heiti";
+	font-weight: bold;
+}
+
+.apply-button uni-button {
+
+	background-image: linear-gradient(160deg, #33DEE9 40%, #42E884);
+	width: 252rpx;
+	height: 80rpx;
+	text-align: center;
+	line-height: 80rpx;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: "heiti";
+	border: 1px solid #42E884;
+	border-radius: 25px;
+	margin-top: 74rpx;
+
+}
+
+::v-deep .van-tabs__line {
+	background-image: linear-gradient(160deg, #33DEE9 40%, #42E884);
+}
+
+.customer-service-box {
+	margin-top: 40rpx;
+	display: flex;
+	flex-direction: column;
+}
+
+.customer-service-title {
+	color: #7B7B7B;
+	font-family: "heiti";
+	font-weight: bold;
+
+}
+
+::v-deep .van-info--dot {
+	background-color: #42E884;
+}
+
+.service-icon {}
+
+.chat-bubble {
+	text-align: right;
+	padding: 10rpx;
+
+}
+
+.chat-bubble text {
+	text-align: right;
+	border-radius: 50rpx;
+	height: 66rpx;
+	padding: 10rpx 20rpx;
+	line-height: 66rpx;
+	font-size: 14px;
+	font-family: "heiti";
+	color: #555555;
+	background-color: #EEFFF8;
+}
+
+.review-box {
+	display: flex;
+	flex-direction: column;
+	height: 900rpx;
+	overflow: scroll;
+
+}

@@ -1,0 +1,24 @@
+{
+	"data": [{
+			"watt_rate": 0.5,
+			"co2_rate": 70,
+			"temperature_rate": 25,
+			"humidity_rate": 40
+		},
+		{
+			"watt_rate": 0.1,
+			"co2_rate": 72,
+			"temperature_rate": 25.5,
+			"humidity_rate": 41
+		},
+		{
+			"watt_rate": 0.1,
+			"co2_rate": 65,
+			"temperature_rate": 27,
+			"humidity_rate": 46
+		}
+	],
+	"message": "数据获取成功",
+	"code": 200,
+	"success": true
+}

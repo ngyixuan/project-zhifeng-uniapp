@@ -7,7 +7,7 @@
 
 		<!-- navBar -->
 		<view>
-			<van-nav-bar :border="false" title=" 2022年 3月 18日" left-text="返回" left-arrow @click-left="goBack" />
+			<van-nav-bar :border="false" title=" 2022年 3月 21日" left-text="返回" left-arrow @click-left="goBack" />
 			</van-nav-bar>
 		</view>
 

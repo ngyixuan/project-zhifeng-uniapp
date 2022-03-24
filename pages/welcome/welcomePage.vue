@@ -2,10 +2,7 @@
 
 		<view class="logo-box">
 			<transition name="van-fade">
-			
 				<image v-show="visible" class="logo-image-item" src="../../static/img/logoImage/zhifeng-logo.png" />
-			
-				
 			</transition>
 
 		</view>

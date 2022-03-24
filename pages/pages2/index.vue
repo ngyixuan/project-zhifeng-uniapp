@@ -78,8 +78,6 @@
 						</movable-view>
 					</movable-area>
 				</view>
-
-
 			</view>
 		</view>
 
